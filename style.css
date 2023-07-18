@@ -54,3 +54,29 @@ a {
 }
 
 /* navbar-section-end */
+
+/* responsive for mobile */
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 50px;
+      }
+    .nav-container-text-iconbar {
+        flex-direction: column;
+        gap: 30px;
+      }
+}
+
+/* responsive for tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 15px;
+      }
+    .nav-container-text-iconbar {
+        margin-bottom: 15px;
+      }
+}
