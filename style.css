@@ -256,15 +256,15 @@ a {
   width: 50%;
   text-align: center;
 }
-.play-container-text h1{
+.play-container-text h1 {
   font-size: 40px;
   font-weight: 700;
 }
-.play-container-text-span{
+.play-container-text-span {
   color: #ff42a5;
 }
-.play-container-text p{
-  color: #534C64;
+.play-container-text p {
+  color: #534c64;
   font-size: 12px;
   font-weight: 400;
   padding-top: 15px;
@@ -287,10 +287,9 @@ a {
 
 /* Play-Section-End */
 
-
 /*  */
 
-.all-logo-container{
+.all-logo-container {
   max-width: 1400px;
   min-height: 70px;
   margin: 200px 50px 50px;
@@ -300,9 +299,13 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   padding: 15px;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,6 +315,55 @@ a {
   background-color: #fff;
 }
 
+/*  */
+
+/* Footer-Section-Start */
+
+.footer-section{
+  max-width: 1400px;
+  min-width: 300px;
+  padding: 70px;
+  background-color: #0B0223;
+}
+
+.footer-section-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 50px;
+}
+.footer-section-all-logo{
+  width: 50%;
+  min-height: 60px;
+  margin: auto;
+  text-align: center;
+}
+ a{
+  padding: 15px;
+}
+.footer-section-paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 25px;
+}
+.footer-section h2{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* Footer-Section-End */
 
 /* responsive for mobile */
 
