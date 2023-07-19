@@ -246,15 +246,17 @@ a {
 
 .play-container {
   max-width: 1400px;
-  min-height: 200px;
+  height: 788px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 70px 0;
+  border: 2px solid red;
 }
 .play-container-text {
   width: 50%;
   text-align: center;
+  border: 3px solid black;
 }
 .play-container-text h1 {
   font-size: 40px;
@@ -274,6 +276,7 @@ a {
   width: 50%;
   height: auto;
   position: relative;
+  border: 3px solid greenyellow;
 }
 .play-container-picture {
   width: 80%;
@@ -284,6 +287,10 @@ a {
   top: 55%;
   right: 75%;
 }
+.play-container-bottom-img img{
+  
+  
+}
 
 /* Play-Section-End */
 
@@ -292,20 +299,26 @@ a {
 .all-logo-container {
   max-width: 1400px;
   min-height: 70px;
-  margin: 200px 50px 50px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 15px;
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
+  margin-top: 20px;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 2px solid orange;
 }
 .logo {
+  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,6 +326,12 @@ a {
   gap: 15px;
   border-radius: 48px;
   background-color: #fff;
+}
+
+.logo p{
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 15px;
 }
 
 /*  */
@@ -391,6 +410,39 @@ a {
   .gamer-container-text {
     width: 100%;
     text-align: center;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .play-container{
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .play-container-text{
+    width: 100%;
+  }
+  .play-container-img{
+    width: 100%;
+  }
+  .play-container-picture{
+    width: 100%;
+  }
+  .all-logo-container{
+    width: 100%;
+  }
+  .logo-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .logo{
+   width: 100%;
+  }
+  .logo img{
+    width: 100%;
+    overflow: hidden;
   }
 }
 
