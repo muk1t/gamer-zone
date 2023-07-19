@@ -121,12 +121,25 @@ a {
   color: #ffffff;
   border: none;
 }
+.banner-container-text-sign-btn:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ff42a5;
+  border: 2px solid #ff42a5;
+}
+
 .banner-container-text-rogue-btn {
   padding: 16px 36px;
   border-radius: 48px;
   border: none;
   background: #4ec5f7;
   color: #ffffff;
+}
+.banner-container-text-rogue-btn:hover{
+  cursor: pointer;
+  background: #ffffff;
+  color: #4ec5f7;
+  border: 2px solid #4ec5f7;
 }
 /* Banner-Section-End */
 
@@ -177,6 +190,12 @@ a {
   background: #ff42a5;
   color: #ffffff;
   border: none;
+}
+.gamer-container-text-btn:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ff42a5;
+  border: 2px solid #ff42a5;
 }
 .gamer-container-text h2 {
   color: #534c64;
@@ -229,6 +248,13 @@ a {
 .video-container-grid {
   width: 100%;
   border-radius: 10px;
+}
+.video-container-grid:hover{
+  cursor: pointer;
+  border: 2px solid #f948b2;
+  border-radius: 16px 16px 10px 10px;
+  background-color: rgb(183, 179, 179);
+  box-shadow: 2px 4px 8px 2px rgb(247, 204, 204);
 }
 .video-container-grid img {
   width: 100%;
@@ -312,15 +338,22 @@ a {
   justify-content: center;
   align-items: center;
   gap: 5px;
+ 
+}
+.logo:hover{
+  cursor: pointer;
   border-radius: 90px;
   background-color: #fff;
+  border: 2px solid #f948b2;
 }
 
 .logo p{
   font-size: 12px;
   font-weight: 600;
 }
-
+.logo p:hover{
+  color: #f948b2;
+}
 /* Logo-Section-End */
 
 /* Footer-Section-Start */
@@ -351,6 +384,10 @@ a {
 }
  a{
   padding: 15px;
+}
+.footer-section-all-logo a{
+  cursor: pointer;
+  color: #ff42a5;
 }
 .footer-section-paragraph{
   display: flex;
