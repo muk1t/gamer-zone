@@ -251,12 +251,10 @@ a {
   justify-content: space-around;
   align-items: center;
   margin: 70px 0;
-  border: 2px solid red;
 }
 .play-container-text {
   width: 50%;
   text-align: center;
-  border: 3px solid black;
 }
 .play-container-text h1 {
   font-size: 40px;
@@ -276,7 +274,6 @@ a {
   width: 50%;
   height: auto;
   position: relative;
-  border: 3px solid greenyellow;
 }
 .play-container-picture {
   width: 80%;
@@ -287,11 +284,6 @@ a {
   top: 55%;
   right: 75%;
 }
-.play-container-bottom-img img{
-  
-  
-}
-
 /* Play-Section-End */
 
 /*  */
@@ -304,34 +296,29 @@ a {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  margin-top: 20px;
+  margin-top: 160px;
 }
 .logo-container{
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 80%;
+  width: 70%;
   flex-wrap: wrap;
   gap: 7px;
-  padding: 15px;
   margin: 0 auto;
-  border: 2px solid orange;
 }
 .logo {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  gap: 15px;
-  border-radius: 48px;
+  gap: 5px;
+  border-radius: 90px;
   background-color: #fff;
 }
 
 .logo p{
   font-size: 12px;
   font-weight: 600;
-  padding-top: 15px;
 }
 
 /*  */
@@ -341,7 +328,8 @@ a {
 .footer-section{
   max-width: 1400px;
   min-width: 300px;
-  padding: 70px;
+  padding: 10px;
+  margin-top: 50px;
   background-color: #0B0223;
 }
 
@@ -349,14 +337,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  padding: 50px;
+  padding: 30px;
 }
 .footer-section-all-logo{
-  width: 50%;
+  
   min-height: 60px;
   margin: auto;
   text-align: center;
@@ -372,13 +360,13 @@ a {
   color: rgba(255, 255, 255, 0.60);
   font-size: 12px;
   font-weight: 600;
-  padding: 25px;
 }
 .footer-section h2{
   color: rgba(255, 255, 255, 0.60);
   font-size: 12px;
   font-weight: 500;
   text-align: center;
+  margin-top: 20px;
 }
 
 
@@ -437,13 +425,29 @@ a {
     display: grid;
     grid-template-columns: repeat(3,1fr);
   }
-  .logo{
-   width: 100%;
-  }
   .logo img{
-    width: 100%;
     overflow: hidden;
   }
+  .footer-section{
+    width: 100%;
+  }
+  .footer-section-heading{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .footer-section-all-logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .footer-section-paragraph{
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+ 
 }
 
 /* responsive for tablet */
