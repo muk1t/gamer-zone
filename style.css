@@ -286,7 +286,7 @@ a {
 }
 /* Play-Section-End */
 
-/*  */
+/* Logo-Section-Start */
 
 .all-logo-container {
   max-width: 1400px;
@@ -321,7 +321,7 @@ a {
   font-weight: 600;
 }
 
-/*  */
+/* Logo-Section-End */
 
 /* Footer-Section-Start */
 
@@ -462,4 +462,47 @@ a {
     margin-bottom: 15px;
     gap: 50px;
   }
+  .banner-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .banner-container-text {
+    flex-direction: column;
+  }
+  .gamer-container {
+    flex-direction: column;
+  }
+  .gamer-container-text {
+    width: 100%;
+    text-align: center;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .play-container{
+    width: 100%;
+    flex-direction: column;
+  }
+  .play-container-text{
+    width: 100%;
+  }
+  .play-container-picture{
+    width: 100%;
+  }
+  .all-logo-container{
+    width: 100%;
+  }
+  .logo-container{
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .footer-section-heading{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
 }
