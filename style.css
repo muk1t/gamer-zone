@@ -328,7 +328,7 @@ a {
   justify-content: center;
   align-content: center;
   width: 70%;
-  height: 30vh;
+  height: 35vh;
   flex-wrap: wrap;
   gap: 7px;
   margin: 0 auto;
@@ -468,6 +468,7 @@ a {
   .logo-container{
     width: 100%;
     display: grid;
+    padding: 10px;
     grid-template-columns: repeat(3,1fr);
   }
   .logo img{
@@ -541,9 +542,9 @@ a {
   }
   .logo-container{
     width: 100%;
-    display: grid;
-    flex-wrap: wrap;
     grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    row-gap: 35px;
   }
   .footer-section-heading{
     text-align: center;
